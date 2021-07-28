@@ -1,5 +1,5 @@
 ---
-id: get events
+id: events
 title: get events
 sidebar_label: get events
 ---
@@ -15,7 +15,7 @@ we can maybe provice the api key inside the headers o
 ```
 apikey: {API-KEY}
 ```
-or else we can use the token to authenticate 
+or else we can use the token for authenticate 
 
 ### response 
 
@@ -30,4 +30,21 @@ or else we can use the token to authenticate
    }
 ]
 
+```
+
+## check if event exist 
+
+to check if the event exist or not 
+
+```
+GET /api/eventexist/{eventid}
+```
+
+we can authetnticate user using the token or we can use a api key 
+
+#### Example response 
+```
+{
+   "eventexist": true
+}
 ```
