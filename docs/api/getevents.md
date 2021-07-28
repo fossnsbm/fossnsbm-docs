@@ -26,7 +26,7 @@ or else we can use the token to authenticate
       "title": "example event",
       "description": "Something",
       "public": "yes",
-      "memners": [String]
+      "members": [String]
    }
 ]
 
