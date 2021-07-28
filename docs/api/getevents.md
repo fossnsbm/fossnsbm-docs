@@ -22,7 +22,7 @@ or else we can use the token to authenticate
 ```
 [
    {
-      "code": "200",
+      "id": "e-1",
       "title": "example event",
       "description": "Something",
       "public": "yes",
