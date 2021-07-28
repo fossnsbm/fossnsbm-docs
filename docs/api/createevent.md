@@ -8,10 +8,21 @@ sidebar_label: Create Event
 | :---        |    :----:   |          ---: |
 | name      | string       | The name of the event    |
 | date   | date         | date of the event    |
-| info | array | other data 
 | image url  | string  | image url  
+| public | boolean | public or not 
+| info | array | other data 
 
 
 
- 
+
+## Response 
+
+
+```
+{
+  "id": e-2,
+  "created": true
+  "public": true
+}
+```
  
