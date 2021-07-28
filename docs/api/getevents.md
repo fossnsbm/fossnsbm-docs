@@ -15,7 +15,7 @@ we can maybe provice the api key inside the headers o
 ```
 apikey: {API-KEY}
 ```
-or else we can send the token to authenticate 
+or else we can use the token to authenticate 
 
 ### response 
 
