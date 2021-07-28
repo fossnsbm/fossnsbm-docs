@@ -7,7 +7,7 @@ sidebar_label: Create Event
 | Data      | Type        | Description     |
 | :---        |    :----:   |          ---: |
 | name      | string       | The name of the event    |
-| timestamp   | date         | Date when this event was performed in UNIX format     |
+| date   | date         | date of the event    |
 | info | array | other data 
 | image url  | string  | image url  
 
