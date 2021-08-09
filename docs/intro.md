@@ -1,10 +1,7 @@
 ---
-id: Introduction
 title: Introduction
-sidebar_label: Introduction
+sidebar_position: 1
 ---
-
-## Introduction
 
 The website fossnsbm.org is a portal that connects all the resources of the FOSS Community of NSBM to a single place, namely the FOSS NSBM blog, FOSS NSBM  forum, FOSS NSBM RSVP website, FOSS NSBM volunteer website. It’s a hub for gaining knowledge about various technologies and interacting with the FOSS Community of NSBM. 
 
