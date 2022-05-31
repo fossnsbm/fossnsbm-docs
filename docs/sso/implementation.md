@@ -44,12 +44,20 @@ func (h *Handler) OAuthMiddlwhare(next http.Handler) http.Handler {
 
 type of the OAuth respose
 
-```go
-type OAuthRespose struct {                                                                                                                                                                              
-    ClientID  string `json:"client_id"`                                                                                                                                                                 
-    ExpiresIn int    `json:"expires_in"`                                                                                                                                                                
-    UserID    string `json:"user_id"`                                                                                                                                                                   
-}                                                                                                                                                                                                       
+```json
+{
+    "client_id": "222222",
+    "expires_in": 7003,
+    "user_email": "john@dasith.works",
+    "user_id": "john@dasith.works",
+    "user_name": "john",
+    "user_roles": [
+        {
+            "type": "user"
+        }
+    ]
+}
+
 ```
 
 This example is taken from 
